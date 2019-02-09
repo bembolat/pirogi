@@ -3171,3 +3171,18 @@ nav ul.pagination  li a:hover{
     }
 
 }
+
+.menu.gallery .menu-items {
+    overflow: hidden;
+}
+
+.menu.gallery .menu-items:hover img {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+} 
+
+.menu.gallery .menu-items img {
+    transition: all 1.8s ease-in-out;
+} 
